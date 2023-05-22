@@ -111,6 +111,7 @@ a {
   margin-bottom: 10px;
   font-family: 'Cocogoose', sans-serif;
 }
+
 .main-sec-heading {
   font-family: 'Cocogoose', sans-serif;
   color: #ec5242;
@@ -118,6 +119,8 @@ a {
   background: url(./images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-sec-heading-about {
@@ -126,11 +129,6 @@ a {
   font-weight: 900;
   text-align: center;
   margin: 0 auto;
-}
-
-.main-sec-heading {
-  font-size: 30px;
-  font-family: 'Lato', sans-serif;
 }
 
 .main-par {
@@ -246,8 +244,10 @@ a {
 
   .main-sec-heading {
     font-size: 4rem;
-  font-weight:bolder;
-width: 50%;
+    font-weight: bolder;
+    width: 50%;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 55px;
   }
 
   .main-par {
@@ -343,7 +343,7 @@ width: 50%;
     margin-bottom: 10px;
     color: white;
   }
-  
+
   .orange-underline {
     width: 90px;
     border-bottom: 3px solid #ec5242;
@@ -817,7 +817,7 @@ width: 50%;
     display: flex;
     justify-content: center;
     background-size: cover;
-height: 80%;
+    height: 80%;
   }
 
   .about-partner {
