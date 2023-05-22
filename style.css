@@ -46,7 +46,6 @@ a {
 .close-btn {
   display: block;
   margin-top: 0;
-  color: rgb(231, 223, 223);
   position: fixed;
 }
 
@@ -72,7 +71,7 @@ a {
   display: none;
   flex-direction: column;
   position: fixed;
-  background-color: black;
+  background: url(./images/mobile_intro_bg.png);
   padding: 12px;
   top: 0;
   left: 0;
@@ -86,7 +85,6 @@ a {
 }
 
 .second-list a {
-  color: white;
   font-size: 30px;
 }
 
@@ -112,6 +110,14 @@ a {
   text-align: left;
   margin-bottom: 10px;
   font-family: 'Cocogoose', sans-serif;
+}
+.main-sec-heading {
+  font-family: 'Cocogoose', sans-serif;
+  color: #ec5242;
+  font-size: 55px;
+  background: url(./images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-sec-heading-about {
@@ -205,11 +211,12 @@ a {
   .second-list {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background: white;
     position: static;
     flex-direction: row;
     align-items: center;
     height: auto;
+    color: #272930;
   }
 
   .second-list li {
@@ -217,7 +224,6 @@ a {
   }
 
   .second-list a {
-    color: black;
     margin: 0 5px;
     font-size: medium;
   }
@@ -239,12 +245,9 @@ a {
   }
 
   .main-sec-heading {
-    font-family: 'Cocogoose', sans-serif;
-    color: #ec5242;
-    font-size: 55px;
-    background: linear-gradient(315deg, rgba(253, 74, 29, 0.5074229520909926) 50%, rgba(252, 247, 69, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+  font-weight:bolder;
+width: 50%;
   }
 
   .main-par {
@@ -340,7 +343,7 @@ a {
     margin-bottom: 10px;
     color: white;
   }
-
+  
   .orange-underline {
     width: 90px;
     border-bottom: 3px solid #ec5242;
@@ -444,6 +447,7 @@ a {
   color: #ec5242;
   font-size: 11px;
   margin: 5px 0 5px 0;
+  font-style: italic;
 }
 
 .speaker-line {
@@ -742,8 +746,9 @@ a {
 
   .main-sec-heading-about {
     color: #ec5242;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
+    font-weight: 700;
     width: 60%;
     margin: 0 auto;
   }
@@ -795,21 +800,24 @@ a {
   }
 
   .section-3 {
-    margin-bottom: 40px;
     align-items: center;
   }
 
   .past-projects {
     margin-top: 50px;
+    margin-bottom: auto;
     display: flex;
     flex-direction: row;
-    width: 49%;
+    width: 90%;
+    height: 46vh;
     gap: 20px;
   }
 
   .project {
     display: flex;
     justify-content: center;
+    background-size: cover;
+height: 80%;
   }
 
   .about-partner {
