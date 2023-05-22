@@ -537,7 +537,7 @@ a {
 
 .partner {
   text-align: center;
-  background-color: #444;
+  background-color: #414246;
   padding: 40px 10px;
 }
 
@@ -558,6 +558,7 @@ a {
   object-fit: contain;
   mix-blend-mode: color-burn;
   margin: 15px;
+  filter: grayscale(100%);
 }
 
 /* Footer Section */
@@ -580,7 +581,6 @@ a {
   .partner {
     display: block;
     text-align: center;
-    background-color: #534f4e;
     padding: 40px 10px;
   }
 
@@ -625,6 +625,10 @@ a {
 }
 
 /* =====================================About page=============================================== */
+
+.about-container {
+  background-color: #f7f7f7;
+}
 
 .top-h1-about {
   color: #ec5242;
@@ -694,12 +698,14 @@ a {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgb(223, 223, 223);
+  margin-top: 20px;
 }
 
 .section-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .join-btn {
@@ -776,6 +782,7 @@ a {
   .section-2 {
     color: white;
     text-align: center;
+    margin-top: 50px;
   }
 
   .about-h2 {
@@ -799,6 +806,7 @@ a {
 
   .section-3 {
     align-items: center;
+    margin-top: 50px;
   }
 
   .past-projects {
