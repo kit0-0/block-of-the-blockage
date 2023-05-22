@@ -284,7 +284,7 @@ a {
 .orange-underline {
   width: 70px;
   margin: 0 auto;
-  border-bottom: 5px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
 }
 
 .program-categories {
@@ -342,8 +342,6 @@ a {
   }
 
   .orange-underline {
-    width: 90px;
-    border-bottom: 3px solid #ec5242;
     margin-bottom: 20px;
   }
 
@@ -437,7 +435,7 @@ a {
   font-family: var(--font-roboto);
   color: #1d1d1d;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .speaker-profession {
@@ -507,7 +505,6 @@ a {
 
   .speaker-header {
     font-size: 1.2rem;
-    font-weight: bold;
   }
 
   .speaker-description {
@@ -782,7 +779,7 @@ a {
   .section-2 {
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
   .about-h2 {
