@@ -100,7 +100,7 @@ a {
 
 /* Main Section */
 .main-container {
-  background-image: url("../images/mobile_intro_bg.png");
+  background-image: url("./images/mobile_intro_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 25px;
@@ -156,7 +156,7 @@ a {
   }
 
   .main-container {
-    background-image: url("../images/main_big.png");
+    background-image: url("./images/main_big.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 10%;
@@ -262,7 +262,7 @@ a {
 /* Program Section */
 .main-program {
   color: white;
-  background-image: url('../images/pattern_bg.png');
+  background-image: url('./images/pattern_bg.png');
   background-repeat: repeat;
   background-color: #272930;
   text-align: center;
@@ -665,11 +665,11 @@ a {
 }
 
 .project-1 {
-  background-image: url("../images/about_2013.png");
+  background-image: url("./images/about_2013.png");
 }
 
 .project-2 {
-  background-image: url("../images/about_2011.png");
+  background-image: url("./images/about_2011.png");
 }
 
 .center-about {
@@ -715,7 +715,7 @@ a {
 }
 
 .footer-image {
-  background-image: url('../images/main-footer.png');
+  background-image: url('./images/main-footer.png');
   height: 75px;
   width: 156px;
   background-size: contain;
@@ -822,7 +822,7 @@ a {
   }
 
   .footer-image {
-    background-image: url('../images/logo_cck_w_208x35.png');
+    background-image: url('./images/logo_cck_w_208x35.png');
     width: 233px;
   }
 
