@@ -113,9 +113,7 @@ a {
 }
 
 .main-sec-heading {
-  font-family: 'Cocogoose', sans-serif;
   color: #ec5242;
-  font-size: 55px;
   background: url(./images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -247,7 +245,6 @@ a {
     font-weight: bolder;
     width: 50%;
     font-family: 'Cocogoose', sans-serif;
-    font-size: 55px;
   }
 
   .main-par {
