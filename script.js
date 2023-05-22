@@ -120,3 +120,40 @@ function createProgramCategories() {
 }
 
 createProgramCategories();
+
+// More button functionality
+
+const moreButton = document.querySelector('.more-btn');
+const speakers = Array.from(document.querySelectorAll('.speaker-list'));
+
+moreButton.addEventListener('click', () => {
+  speakers.slice(-4).forEach((speaker) => {
+    speaker.classList.toggle('hidden');
+  });
+
+  if (moreButton.textContent === 'More') {
+    moreButton.textContent = 'Less';
+  } else {
+    moreButton.textContent = 'More';
+  }
+});
+
+function hideSpeakers() {
+  if (window.innerWidth < 768) {
+    speakers.slice(-4).forEach((speaker) => {
+      speaker.classList.add('hidden');
+    });
+    moreButton.textContent = 'More';
+  } else {
+    speakers.forEach((speaker) => {
+      speaker.classList.remove('hidden');
+    });
+    moreButton.textContent = 'More';
+  }
+}
+
+hideSpeakers();
+
+window.addEventListener('resize', () => { // check window on resizing
+  hideSpeakers();
+});
