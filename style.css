@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cocogoose:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 /* GENERAL STYLING */
 * {
@@ -109,7 +109,7 @@ a {
   color: #ec5242;
   text-align: left;
   margin-bottom: 10px;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-sec-heading {
@@ -237,14 +237,14 @@ a {
 
   .main-heading {
     color: #ec5242;
-    font-family: 'Cocogoose', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .main-sec-heading {
     font-size: 4rem;
-    font-weight: bolder;
+    font-weight: 700;
     width: 50%;
-    font-family: 'Cocogoose', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .main-par {
@@ -252,9 +252,9 @@ a {
   }
 
   .bold {
-    font-family: 'Cocogoose', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #272a31;
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 30px;
   }
 }
@@ -534,7 +534,7 @@ a {
 
 .partner {
   text-align: center;
-  background-color: #414246;
+  background-color: #272a31;
   padding: 40px 10px;
 }
 
